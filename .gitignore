@@ -1,0 +1,54 @@
+# ------------------------------
+# Environment variables
+# ------------------------------
+.env
+.env.*
+!.env.example
+
+# ------------------------------
+# Python
+# ------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+.venv/
+venv/
+
+.pytest_cache/
+.mypy_cache/
+
+# ------------------------------
+# Flutter / Dart
+# ------------------------------
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# ------------------------------
+# IDE / Editor
+# ------------------------------
+.vscode/
+.idea/
+
+# ------------------------------
+# Operating system
+# ------------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------------
+# Logs
+# ------------------------------
+*.log
+
+# ------------------------------
+# Database / Docker local data
+# ------------------------------
+postgres_data/
